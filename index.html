@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>link</h1>
+    <a class="link" href="https://www.google.com" target="_Blank">Link</a>
+    <h1>Visited</h1>
+    <a class="visited" href="https://www.google.com" target="_Blank">Visited</a>
+    <h1>Hover</h1>
+    <a class="hover" href="#" target="_Blanc">Hover Effect</a>
+    <h1>Псевдоклассы enabled и disabled</h1>
+    <p><input class="inabled" type="text" value="Enabled" /></p>
+    <p><input type="text" disabled value="Disabled" /></p>
+    <h1>:checked + span</h1>
+    <div class="checked">
+    <p>
+        <input type="checkbox" checked name="html5"/><span>1221</span>
+    </p>
+    <p>
+        <input type="checkbox" name="dotnet"/><span>212132</span>
+    </p>
+    <p>
+        <input type="checkbox" name="java"/><span>231231</span>
+    </p>
+</div>
+<h1>Псевдокласс :default</h1>
+<div class="form">
+<form>
+        <input name="login"/>
+        <input type="submit" value="Войти" />
+    </form>
+</div>  
+<h1>Псевдоклассы :valid и :invalid</h1>  
+<div class="valid">
+    <form>
+        <p><input type="text" name="login" placeholder="Введите логин" required /></p>
+        <p><input type="password" name="password" placeholder="Введите пароль" required /></p>
+        <input type="submit" value="Войти" />
+    </form>
+</div>
+<h1>Псевдоклассы :in-range и :out-of-range</h1>
+<div class="range">
+    <form>
+        <p>
+            <label for="age">Ваш возраст:</label> 
+            <input type="number" min="1" max="100" value="10" id="age" name="age"/>
+        </p>
+        <input type="submit" value="Отправить" />
+    </form>
+</div>
+</body>
+</html>

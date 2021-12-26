@@ -1,0 +1,40 @@
+body{
+    background: #98fb98;
+}
+
+.link:link
+ {color: slategray;}
+.visited:visited 
+{ color: red; }
+.visited:visited
+ { background-color: pink }
+.hover:hover{
+color:red ;
+
+}
+.hover{
+    transition: 0.45s;
+}
+.inabled:enabled{
+    border: 2px black solid;
+    color: red;
+}
+.checked p input:checked + span {
+    color: red;
+    font-weight: bold; 
+}
+.form form input:default {
+    border: 2px solid red;
+}
+.valid form p input:invalid {
+    border: 2px solid red;
+}
+.valid form p input:valid {
+    border: 2px solid green;
+}
+.range form p label:in-range {
+    border: 2px solid green;
+}
+.range form p label:out-of-range {
+    border: 2px solid red;
+}
